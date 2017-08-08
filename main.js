@@ -59,7 +59,7 @@ function numerar() {
   }
 }
 
-function fechaPorDia(año, dia) {
-  var date = new Date(año, 0);
+function fechaPorDia(ano, dia) {
+  var date = new Date(ano, 0);
   return new Date(date.setDate(dia));
 }
